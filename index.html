@@ -19,10 +19,25 @@
                 <div class="col-12 my-5">
                     <form class="js-search-form d-flax" action="https://echo.htmlacademy.ru/courses" method="GET">
                         <input class="js-search-input form-control me-2" type="search" name="search_movie" placeholder="Search">
+
                         <select class="js-search-genres form-select me-2" name="movie_genres">
-                            
+                            <option value="all">All</option>
                         </select>
-                        <input type="text" name="" id="">
+
+                        <input class="js-form-year form-control me-2" type="number" name="form_year" placeholder="From year">
+                        <input class="js-to-year form-control me-2" type="number" name="to_year" placeholder="To year">
+
+                        <select class="js-sort-movies form-select me-2" name="sort-movies">
+                            <option>Sort Movies</option>
+                            <option value="a-z">A-Z</option>
+                            <option value="z-a">Z-A</option>
+                            <option value="oldest-latest">Oldest-Latest</option>
+                            <option value="latest-oldest">Latest-Oldest</option>
+                            <option value="low-rated">Low-Rated</option>
+                            <option value="high-rated">High-Rated</option>
+                            <option value="short-time">Short-Rated</option>
+                            <option value="long-time">Long-Rated</option>
+                        </select>
                         
                     </form>
                 </div>
